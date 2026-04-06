@@ -1,0 +1,6 @@
+,model_name,best_score_r2,best_params
+0,RandomForest,0.47158288521562375,"{'model__max_depth': 15, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 200, 'preprocessing__num__pca__n_components': 10}"
+1,CatBoost,0.45748811022585506,"{'model__depth': 8, 'preprocessing__num__pca__n_components': 20}"
+2,KNN,0.42489191170720614,"{'model__n_neighbors': 10, 'model__p': 2, 'model__weights': 'distance', 'preprocessing__num__pca__n_components': 10}"
+3,DecisionTree,0.30372539448725544,"{'model__max_depth': 3, 'model__min_samples_leaf': 4, 'model__min_samples_split': 2, 'preprocessing__num__pca__n_components': 10}"
+4,LinearRegression,0.24712213454613013,"{'model__fit_intercept': True, 'preprocessing__num__pca__n_components': 20}"
